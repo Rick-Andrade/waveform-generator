@@ -70,6 +70,7 @@ void displayConfig(void)
       for(;;); // Infinity loop 
   }     
   Serial.println("SSD1306 succesfully started"); 
+  display.display();
 }
 
 void squareWaveScreen(void)
