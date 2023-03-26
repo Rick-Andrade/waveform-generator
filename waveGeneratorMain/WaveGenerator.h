@@ -4,9 +4,9 @@
 #include <MD_AD9833.h>
 #include <SPI.h>
 
-#define DATA  14	///< SPI Data pin number
-#define CLK   12	///< SPI Clock pin number
-#define FSYNC 13	///< SPI Load pin number (FSYNC in AD9833 usage)
+#define DATA  D5	///< SPI Data pin number
+#define CLK   D6	///< SPI Clock pin number
+#define FSYNC D7	///< SPI Load pin number (FSYNC in AD9833 usage)
 
 extern MD_AD9833	waveGenerator;  // Hardware SPI
 
